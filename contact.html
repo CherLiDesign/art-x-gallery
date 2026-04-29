@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — ArtX Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="ArtX Gallery">
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="exhibitions.html">Exhibitions</a>
+        <a href="magazine.html">Magazine</a>
+        <a href="opencall.html">Open Call</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <button class="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="exhibitions.html">Exhibitions</a>
+    <a href="magazine.html">Magazine</a>
+    <a href="opencall.html">Open Call</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="page-hero">
+    <div class="page-label">Get in Touch</div>
+    <h1>Visit Us</h1>
+  </section>
+
+  <section class="contact-content">
+
+    <div class="contact-info fade-in">
+      <div class="info-block">
+        <div class="info-label">Location</div>
+        <p>43008 Christy Street<br>Fremont, CA 94538</p>
+      </div>
+
+      <div class="info-block">
+        <div class="info-label">Hours — Appointment Only</div>
+        <p>Tuesday - Saturday 10 AM - 5:30 PM</p>
+        <p>Sunday & Monday Closed</p>
+      </div>
+
+      <div class="info-block">
+        <div class="info-label">Contact</div>
+        <p><a href="tel:+16282525221">(628) 252-5221</a></p>
+        <p><a href="mailto:Hi@art-x.gallery">Hi@art-x.gallery</a></p>
+      </div>
+    </div>
+
+    <div class="contact-form fade-in">
+      <h2>Send a Message</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="your@email.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="Tell us what's on your mind..."></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Send</button>
+        <p id="formSuccess" style="display:none; margin-top:20px; color:rgba(232,228,222,0.7);">Thank you!</p>
+      </form>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>Address</h3>
+        <p>43008 Christy Street<br>Fremont, CA 94538</p>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <a href="mailto:Hi@art-x.gallery">Hi@art-x.gallery</a>
+        <a href="tel:+16282525221">(628) 252-5221</a>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2025 ArtX Gallery</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

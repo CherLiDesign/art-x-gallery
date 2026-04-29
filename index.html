@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArtX Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="grain"></div>
+  <div class="cursor-glow"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="ArtX Gallery">
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="exhibitions.html">Exhibitions</a>
+        <a href="magazine.html">Magazine</a>
+        <a href="opencall.html">Open Call</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="hamburger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="exhibitions.html">Exhibitions</a>
+    <a href="magazine.html">Magazine</a>
+    <a href="opencall.html">Open Call</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>
+      <span class="line"><span>Where Art</span></span>
+      <span class="line"><span>Meets Technology</span></span>
+    </h1>
+    <p>Infinite Possibilities &middot; Interdisciplinary Collaboration &middot; Immersive Exploration</p>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Exhibition Showcase -->
+  <section class="carousel-section fade-in">
+    <div class="section-label">Current Exhibition</div>
+    <h2><a href="opencall.html">Synthetica and Alterica Exhibition</a></h2>
+    <div class="carousel">
+      <div class="carousel-track">
+        <div class="carousel-slide"><img src="images/carousel-1.png" alt="Synthetica and Alterica Exhibition"></div>
+        <div class="carousel-slide"><img src="images/carousel-2.png" alt="Synthetica and Alterica Exhibition"></div>
+        <div class="carousel-slide"><img src="images/carousel-3.png" alt="Synthetica and Alterica Exhibition"></div>
+        <div class="carousel-slide"><img src="images/carousel-4.png" alt="Synthetica and Alterica Exhibition"></div>
+      </div>
+      <button class="carousel-btn prev" aria-label="Previous">&#8249;</button>
+      <button class="carousel-btn next" aria-label="Next">&#8250;</button>
+    </div>
+    <div class="carousel-dots">
+      <button class="dot active" data-index="0"></button>
+      <button class="dot" data-index="1"></button>
+      <button class="dot" data-index="2"></button>
+      <button class="dot" data-index="3"></button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>Address</h3>
+        <p>43008 Christy Street<br>Fremont, CA 94538</p>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <a href="mailto:Hi@art-x.gallery">Hi@art-x.gallery</a>
+        <a href="tel:+16282525221">(628) 252-5221</a>
+      </div>
+      <div class="footer-col">
+        <h3>Legal</h3>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 ArtX Gallery
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
